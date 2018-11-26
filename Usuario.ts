@@ -25,4 +25,6 @@ export abstract class Usuario{
 
     public abstract cadastrarUser(): boolean;
 
+    public abstract loginUser(): boolean;
+
 }

@@ -7,4 +7,6 @@ export class Produto{
     private preco: number;
     private categorias: Categoria;
 
+    
+
 }

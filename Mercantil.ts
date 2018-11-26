@@ -3,7 +3,7 @@ import {Produto} from "./Produto";
 
 export class Mercantil extends Usuario{
     private nome: string;
-    private produtos: Array<Produto>;
+    private estoque
 
     public constructor(id: string, senha: string, nome: string, produtos: Array<Produto> = []){
         super(id, senha);
